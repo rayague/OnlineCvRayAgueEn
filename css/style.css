@@ -56,6 +56,9 @@ hr {
   height: fit-content;
   width: fit-content;
   padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 50%;
 }
 
@@ -63,6 +66,7 @@ hr {
   height: 120px;
   width: 120px;
   object-fit: contain;
+  margin: 10px;
 }
 
 .contactContainer {
@@ -236,19 +240,46 @@ header {
 }
 
 .menu {
-  /* display: non; */
   height: 50px;
   width: 50px;
   background-color: black;
   color: white;
   border-radius: 50%;
-  /* display: flex; */
   align-items: center;
   justify-content: center;
   position: absolute;
   bottom: 10px;
   right: 10px;
   display: none;
+}
+
+.translated {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.translated a {
+  text-decoration: none;
+}
+
+.e {
+  color: dodgerblue;
+  font-weight: 900;
+}
+
+.n {
+  color: red;
+  font-weight: 900;
 }
 
 @media screen and (max-width: 1000px) {
