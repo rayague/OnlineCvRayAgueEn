@@ -423,7 +423,7 @@ header {
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 60px;
+    top: 20px;
     right: 35px;
     display: flex;
   }
